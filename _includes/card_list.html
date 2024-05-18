@@ -1,18 +1,23 @@
-<div class="project-entries">
+<ul class="project-entries">
   {% for entry in site.data.home.project_entries %}
     {% assign index = forloop.index0 | modulo: 3 %}
     {% if index == 0 %}
-      <div class="project-row">
+      <li class="project-row">
     {% endif %}
-    <div class="project-entry">
-      <h3><a href="{{ entry.url }}">{{ entry.title }}</a></h3>
-      <p>{{ entry.desc }}</p>
-      {% if entry.highlight %}
-        <span class="highlight">{{ entry.highlight }}</span>
-      {% endif %}
+    <div class="card">
+      <div class="header">
+        <a href="{{ entry.url }}">{{ entry.title }}</a>
+      </div>
+      <hr>
+      <div class="body">
+        <p>{{ entry.desc }}</p>
+        {% if entry.highlight %}
+          <span class="highlight">{{ entry.highlight }}</span>
+        {% endif %}
+      </div>
     </div>
     {% if index == 2 or forloop.last %}
-      </div>
+      </li>
     {% endif %}
   {% endfor %}
-</div>
+</ul>
