@@ -72,7 +72,7 @@ Now a table:
 
 ## Images
 
-![theme logo](http://www.abhinavsaxena.com/images/abhinav.jpeg)
+![theme logo](http://res.cloudinary.com/dwmwpmrpo/image/upload/v1716066850/hpzynhatodjsqie4kixe.png)
 
 This is an image[^4]
 
