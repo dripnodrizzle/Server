@@ -1,64 +1,64 @@
 navbar_entries:
-  - title: about
-    url: about
+  - title: 
+    url: 
 
-  - title: blog
-    url: blog
+  - title: Florida-Brand
+    url: https://florida-brand.com
 
-  - title: website
-    url: https://www.abhinav.co
+  - title: 
+    url: 
 
 project_entries:
-  - title: Project 1
+  - title: Secretary of Security (Troops)
     url: overview-post
     desc: This is an example project, configured in _data/home.yml
 
-  - title: Project 2
+  - title: Secretary of Development (Construction)
     url: overview-post
     desc: Projects are shown in card layout
 
-  - title: Project 3
+  - title: Secretary of Science (Research)
     url: overview-post
     desc: You can control visibility from _config.yml file
 
-  - title: Project 4
+  - title: First Lady Position Volunteer
     url: overview-post
     desc: This project uses highlight markup, configured in _data/home.yml
     highlight: WIP
 
-  - title: Project 5
+  - title: Coming Soon!
     url: overview-post
     desc: Moonwalk also has horizontal list (used in header and footer)
     highlight: WIP
 
-  - title: Project 6
+  - title: Coming Soon!
     url: overview-post
     desc: It also has a scalable vertical list (in case you need it)
 
 old_project_entries:
-  - title: Soopr
-    url: https://www.soopr.co
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
+  - title: Coming Soon!
+    url: 
+    desc: Coming Soon!
     highlight: NEW
 
-  - title: Cookie
-    url: https://github.com/abhinavs/cookie
-    desc: An open source landing website with supporting pages and integrated blog
+  - title: Coming Soon!
+    url: 
+    desc: Coming Soon!
+ 
+  - title: Coming Soon!
+    url: 
+    desc: Coming Soon!
 
-  - title: Moonwalk
-    url: https://github.com/abhinavs/moonwalk
-    desc: A fast and minimalist Jekyll blog theme with clean dark mode
-
-  - title: Humangous
-    url: https://www.humangous.co
-    desc: The better people know you, the better they collaborate
+  - title: Coming Soon!
+    url: 
+    desc: Coming Soon!
 
 footer_entries:
-  - title: abhinav's homepage
-    url: https://www.abhinav.co
+  - title: Florida-Brand's homepage
+    url: florida-brand.com
 
-  - title: twitter
-    url: https://twitter.com/abhinav
+  - title: Discord
+    url: 
 
   - title: github
     url: https://github.com/abhinavs
