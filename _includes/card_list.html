@@ -4,18 +4,20 @@
     {% if index == 0 %}
       <li class="project-row">
     {% endif %}
-    <div class="card">
-      <div class="header">
-        <a href="{{ entry.url }}">{{ entry.title }}</a>
-      </div>
-      <hr>
-      <div class="body">
-        <p>{{ entry.desc }}</p>
-        {% if entry.highlight %}
-          <span class="highlight">{{ entry.highlight }}</span>
+    <a href="{{ entry.url }}" class="card-link">
+      <div class="card">
+        <div class="header">
+          {{ entry.title }}
+          {% if entry.highlight %}
+            <mark>{{ entry.highlight }}</mark>
+          {% endif %}
+        </div>
+        <hr>
+        {% if entry.desc != false %}
+          <p class="body">{{ entry.desc }}</p>
         {% endif %}
       </div>
-    </div>
+    </a>
     {% if index == 2 or forloop.last %}
       </li>
     {% endif %}
