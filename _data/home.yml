@@ -24,16 +24,16 @@ project_entries:
   - title: First Lady Position Volunteer
     url: overview-post
     desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
+    highlight: Volunteer
 
   - title: Coming Soon!
     url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
+    desc: Coming Soon!
+    highlight: New
 
   - title: Coming Soon!
     url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
+    desc: Coming Soon!
 
 old_project_entries:
   - title: Coming Soon!
