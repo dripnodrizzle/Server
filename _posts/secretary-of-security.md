@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 author: Wulfgaar
 tags: Secretary Of Security
 ---
