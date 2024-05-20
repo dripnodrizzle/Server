@@ -9,9 +9,9 @@
 <body>
   <h1>Secretary of Development</h1>
   <p>(Construction)</p>
-  
-  <h2>Choose a Time Slot you would like to assign the Secretary of Development to yourself</h2>
-  <p>Please choose a Time Slot:</p>
+   <p>
+    <h3>Choose a Time Slot you would like to assign yourself for the Secretary of Development:</h3>
+  </p>
   
   <div class="carousel">
     <select id="timeSlot">
