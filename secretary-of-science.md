@@ -1,16 +1,16 @@
----
-layout: page
-title: "Secretary of Science"
-permalink: /secretary-of-science/
----
-
-# Secretary of Science
-
-## (Research)
-
-### Choose a Time Slot you would like to assign the Secretary of Science to yourself
-
-Please choose a Time Slot:
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Secretary of Science (Research)</title>
+  <style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </style>
+</head>
+<body>
+  <h1>Secretary of Science</h1>
+  <p>(Research)</p>
+  
+  <h2>Choose a Time Slot you would like to assign the Secretary of Research to yourself</h2>
 
 <div class="carousel">
   <select id="timeSlot">
