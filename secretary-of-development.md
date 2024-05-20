@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: page
 title: "Secretary of Development"
 permalink: /secretary-of-development/
 ---
