@@ -1,23 +1,14 @@
----
-layout: page
-title: "Secretary of Development"
-permalink: /secretary-of-development/
----
-# Secretary of Development
-## (Construction)
-### Choose a Time Slot you would like to assign the Secretary of Development to yourself
-
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Secretary of Development (Research)</title>
+  <title>Secretary of Development (Construction)</title>
   <style>
     <link rel="stylesheet" type="text/css" href="styles.css">
   </style>
 </head>
 <body>
   <h1>Secretary of Development</h1>
-  <p>(Research)</p>
+  <p>(Construction)</p>
   
   <h2>Choose a Time Slot you would like to assign the Secretary of Development to yourself</h2>
   <p>Please choose a Time Slot:</p>
