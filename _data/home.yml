@@ -5,20 +5,20 @@ navbar_entries:
 
 project_entries:
   - title: Secretary of Security (Troops)
-    url: /secretary-of-security.md
+    url: /secretary-of-security/
     desc: This is where you can choose a timeslot for "Troops"
 
   - title: Secretary of Development (Construction)
-    url: /secretary-of-development.md
+    url: /secretary-of-development/
     desc: This is where you can choose a timeslot for "Construction"
 
   - title: Secretary of Science (Research)
-    url: /secretary-of-science.md
+    url: /secretary-of-science/
     desc: This is where you can choose a timeslot for "Research"
   
-  - title: Coming Soon!
-    url: https://florida-brand.com/
-    desc: More to come soon!
+  - title: First Lady Volunteer
+    url: /first-lady-volunteer/
+    desc: This page coming soon! this is the page you will go to if you want to put yourself on a list of Volunteer First Ladies
     highlight: Volunteer
 
   - title: Coming Soon!
