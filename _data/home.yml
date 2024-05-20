@@ -1,38 +1,38 @@
 navbar_entries:
-  - title: 
-    url: 
-
   - title: Florida-Brand
     url: https://florida-brand.com
+  
+  #- title: 
+   # url: 
 
-  - title: 
-    url: 
+  #- title: 
+   # url: 
 
 project_entries:
   - title: Secretary of Security (Troops)
-    url: secretary-of-security
-    desc: This is an example project, configured in _data/home.yml
+    url: https://florida-brand.com/secretary-of-security
+    desc: This is where you can choose a timeslot for "Troops"
 
   - title: Secretary of Development (Construction)
-    url: overview-post
-    desc: Projects are shown in card layout
+    url: https://florida-brand.com/secretary-of-development
+    desc: This is where you can choose a timeslot for "Development"
 
   - title: Secretary of Science (Research)
-    url: overview-post
-    desc: You can control visibility from _config.yml file
-
-  - title: First Lady Position Volunteer
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
+    url: https://florida-brand.com/secretary-of-science
+    desc: This is where you can choose a timeslot for "Research"
+  
+  - title: Coming Soon!
+    url: https://florida-brand.com/
+    desc: More to come soon!
     highlight: Volunteer
 
   - title: Coming Soon!
-    url: overview-post
+    url: https://florida-brand.com/
     desc: Coming Soon!
     highlight: New
 
   - title: Coming Soon!
-    url: overview-post
+    url: https://florida-brand.com/
     desc: Coming Soon!
 
 old_project_entries:
@@ -57,45 +57,45 @@ footer_entries:
   - title: Florida-Brand.com
     url: florida-brand.com
 
-  - title: # Discord
-    url: 
+ # - title: # Discord
+  #  url: 
 
-  - title: # github
-    url: # https://github.com/abhinavs
+# - title: # github
+#    url: # https://github.com/abhinavs
 
-  - title: # feed
-    url: # feed.xml
+ # - title: # feed
+  #  url: # feed.xml
 
-misc_entries:
-  - title: this is an example vertical list
-    url: false
+# misc_entries:
+ # - title: this is an example vertical list
+ #   url: false
 
-  - title: you can show or hide using a boolean flag in _config.yml
-    url: false
+ # - title: you can show or hide using a boolean flag in _config.yml
+ #   url: false
 
-  - title: and you can add data in _data/home.yml
-    url: false
+ # - title: and you can add data in _data/home.yml
+ #   url: false
 
-  - title: # Blog posts
-    post_list: false
-    url: false
+ # - title: # Blog posts
+ #   post_list: false
+ #   url: false
 
-  - title: # moonwalk on the Internet
-    url: false
-    entries:
-      - title: # on Github
-        url: # https://github.com/abhinavs/moonwalk
+ # - title: # moonwalk on the Internet
+ #   url: false
+ #   entries:
+ #     - title: # on Github
+ #       url: # https://github.com/abhinavs/moonwalk
 
-      - title: # originally built for abhinav's homepage
-        url: # https://www.abhinav.co
+ #     - title: # originally built for abhinav's homepage
+ #       url: # https://www.abhinav.co
 
-      - title: # this list is scalable and can be nested
-        url: false
-        entries:
-          - title: # this is nested inside a nested list
-            url: false
+ #     - title: # this list is scalable and can be nested
+ #       url: false
+ #       entries:
+ #         - title: # this is nested inside a nested list
+ #           url: false
 
-          - title: # it is easy to use, see _data/home.yml to see how to configure it.
-            url: false
+ #         - title: # it is easy to use, see _data/home.yml to see how to configure it.
+ #           url: false
 
 
