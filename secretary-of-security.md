@@ -11,10 +11,8 @@
 
   <h1>Secretary of Security</h1>
   <p>(Troops)</p>
-  
-  <h2>Choose </h2>
   <p>
-    <h3>Please choose a Time Slot you would like to assign the Secretary of Security to yourself:</h3>
+    <h3>Choose a Time Slot you would like to assign yourself for the Secretary of Research:</h3>
   </p>
   
   <div class="carousel">
