@@ -2,9 +2,9 @@
 <html>
 <head>
   <title>Secretary of Science (Research)</title>
-  <style>
-   <link rel="stylesheet" type="text/css" href="styles.css">
-  </style>
+    <style>
+       <link rel="stylesheet" type="text/css" href="styles.css">
+    </style>
 </head>
 <body>
   <h1>Secretary of Science</h1>
