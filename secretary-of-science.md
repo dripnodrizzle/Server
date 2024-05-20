@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Secretary of Science"
-permalink: /secretary-of-science
+permalink: /secretary-of-science/
 ---
 # Secretary of Science
 ## (Research)
