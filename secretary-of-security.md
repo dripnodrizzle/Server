@@ -1,16 +1,7 @@
----
-layout: page
-title: "Secretary of Security"
-permalink: /secretary-of-security/
----
-# Secretary of Security
-## (Troops)
-### Choose a Time Slot you would like to assign the Secretary of Security to yourself
-
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Secretary of Security (Research)</title>
+  <title>Secretary of Security (Troops)</title>
   <style>
     <link rel="stylesheet" type="text/css" href="styles.css">
   </style>
@@ -19,10 +10,12 @@ permalink: /secretary-of-security/
   <button class="back-button" onclick="goBack()">Back</button>
 
   <h1>Secretary of Security</h1>
-  <p>(Research)</p>
+  <p>(Troops)</p>
   
-  <h2>Choose a Time Slot you would like to assign the Secretary of Security to yourself</h2>
-  <p>Please choose a Time Slot:</p>
+  <h2>Choose </h2>
+  <p>
+    <h3>Please choose a Time Slot you would like to assign the Secretary of Security to yourself:</h3>
+  </p>
   
   <div class="carousel">
     <select id="timeSlot">
