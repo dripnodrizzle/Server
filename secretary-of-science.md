@@ -1,18 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Secretary of Science (Research)</title>
-  <style>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-  </style>
-</head>
-<body>
-  <h1>Secretary of Science</h1>
-  <p>(Research)</p>
-   <p>
-    <h3>Choose a Time Slot you would like to assign yourself for the Secretary of Science:</h3>
-  </p>
+---
+layout: page
+title: Secretary of Science (Research)
+css: /assets/css/styles.css
+---
 
+# Secretary of Science
+####(Research)
+
+### Choose a Time Slot you would like to assign yourself for the Secretary of Science:
 <div class="carousel">
   <select id="timeSlot">
     <option value="slot1">Time Slot 1</option>
@@ -55,44 +50,44 @@
 </div>
 
 <script>
-  function clearForm() {
-    document.getElementById("username").value = "";
-    document.getElementById("coordinateX").value = "";
-    document.getElementById("coordinateY").value = "";
-    document.getElementById("allianceTag").value = "";
+function clearForm() {
+  document.getElementById("username").value = "";
+  document.getElementById("coordinateX").value = "";
+  document.getElementById("coordinateY").value = "";
+  document.getElementById("allianceTag").value = "";
+}
+
+function submitForm() {
+  var username = document.getElementById("username").value;
+  var coordinateX = document.getElementById("coordinateX").value;
+  var coordinateY = document.getElementById("coordinateY").value;
+  var allianceTag = document.getElementById("allianceTag").value;
+  
+  if (username && coordinateX && coordinateY && allianceTag) {
+    var timeSlot = document.getElementById("timeSlot");
+    var selectedSlot = timeSlot.options[timeSlot.selectedIndex].text;
+    
+    document.getElementById("selectedSlot").textContent = "Time Slot Chosen: " + selectedSlot;
+    document.getElementById("usernameDisplay").textContent = "Username: " + username;
+    document.getElementById("coordinatesDisplay").textContent = "Coordinates: X: " + coordinateX + ", Y: " + coordinateY;
+    document.getElementById("allianceTagDisplay").textContent = "Alliance Tag: " + allianceTag;
+    document.getElementById("timestamp").textContent = "Timestamp: " + getCurrentDateTime();
+    
+    document.getElementById("confirmationEmbed").style.display = "block";
+    
+    // Remove the selected time slot from the carousel
+    timeSlot.remove(timeSlot.selectedIndex);
   }
+}
 
-  function submitForm() {
-    var username = document.getElementById("username").value;
-    var coordinateX = document.getElementById("coordinateX").value;
-    var coordinateY = document.getElementById("coordinateY").value;
-    var allianceTag = document.getElementById("allianceTag").value;
+function getCurrentDateTime() {
+  var currentDate = new Date();
+  var dateTime = currentDate.toLocaleString();
+  return dateTime;
+}
 
-    if (username && coordinateX && coordinateY && allianceTag) {
-      var timeSlot = document.getElementById("timeSlot");
-      var selectedSlot = timeSlot.options[timeSlot.selectedIndex].text;
-
-      document.getElementById("selectedSlot").textContent = "Time Slot Chosen: " + selectedSlot;
-      document.getElementById("usernameDisplay").textContent = "Username: " + username;
-      document.getElementById("coordinatesDisplay").textContent = "Coordinates: X: " + coordinateX + ", Y: " + coordinateY;
-      document.getElementById("allianceTagDisplay").textContent = "Alliance Tag: " + allianceTag;
-      document.getElementById("timestamp").textContent = "Timestamp: " + getCurrentDateTime();
-
-      document.getElementById("confirmationEmbed").style.display = "block";
-
-      // Remove the selected time slot from the carousel
-      timeSlot.remove(timeSlot.selectedIndex);
-    }
-  }
-
-  function getCurrentDateTime() {
-    var currentDate = new Date();
-    var dateTime = currentDate.toLocaleString();
-    return dateTime;
-  }
-
-  function downloadTicket() {
-    // Implement the logic to generate and download the ticket file
-    alert("Download functionality not implemented yet.");
-  }
+function downloadTicket() {
+  // Implement the logic to generate and download the ticket file
+  alert("Download functionality not implemented yet.");
+}
 </script>
