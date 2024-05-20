@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Secretary of Development"
-permalink: /secretary-of-development
+permalink: /secretary-of-development/
 ---
 # Secretary of Development
 ## (Construction)
