@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Secretary of Science"
-permalink: /369/firstlady/Secretary-of-Science
+permalink: /Secretary-of-Science
 ---
 # Secretary of Science
 ## (Troops)
