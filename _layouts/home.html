@@ -1,45 +1,76 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="dashed"></div>
+    <h1>My Website</h1>
+    <p>Welcome to my website!</p>
+  </header>
 
-<header>
-{% if site.theme_config.show_navbar == true %}
-  {% include horizontal_list.html collection=site.data.home.navbar_entries %}
-  <div class="dashed"></div>
-{% endif %}
+  <main>
+   <section id="projects">
+      <h2>Projects</h2>
+      <div class="card-list">
+        <div class="card">
+          <h3>Secretary of Security</h3>
+          <mark>Troops</mark>
+          <p>This is where you can choose a timeslot for "Troops"</p>
+          <a href="/secretary-of-security" class="card-link">View Details</a>
+        </div>
+        <div class="card">
+          <h3>Secretary of Development</h3>
+          <mark>Construction</mark>
+          <p>This is where you can choose a timeslot for "Construction"</p>
+          <a href="/secretary-of-development" class="card-link">View Details</a>
+        </div>
+        <div class="card">
+          <h3>Secretary of Science</h3>
+          <mark>Research</mark>
+          <p>This is where you can choose a timeslot for "Research"</p>
+          <a href="/secretary-of-science" class="card-link">View Details</a>
+        </div>
+        <div class="card">
+          <h3>First Lady Volunteer</h3>
+          <mark>Coming Soon</mark>
+          <p>This page coming soon! this is the page you will go to if you want to put yourself on a list of Volunteer First Ladies</p>
+          <a href="/first-lady-volunteer" class="card-link">View Details</a>
+        </div>
+        <div class="card">
+          <h3>Coming Soon!</h3>
+          <mark>Coming Soon</mark>
+          <p>Coming soon!</p>
+          <a href="/coming-soon" class="card-link">View Details</a>
+        </div>
+        <div class="card">
+          <h3>Coming Soon!</h3>
+          <mark>Coming Soon</mark>
+          <p>Coming Soon!</p>
+          <a href="/coming-soon" class="card-link">View Details</a>
+        </div>
+      </div>
+    </section>
 
-  <h1>{{ site.title }}</h1>
-  {% if site.theme_config.show_description == true %}
-    <p>{{ site.description }}</p>
-  {% endif %}
-</header>
-
-{{ content }}
-
-{% if site.theme_config.show_projects == true %}
-  <h2>{{ site.theme_config.home.title_projects }}</h2>
-  {% include card_list.html collection=site.data.home.project_entries %}
-{% endif %}
-
-{% if site.theme_config.show_misc_list == true %}
-  <h2>{{ site.theme_config.home.title_misc_list }}</h2>
-  {% include vertical_list.html collection=site.data.home.misc_entries %}
-{% endif %}
-
-{% if site.theme_config.show_blog == true %}
-  <h2>{{ site.theme_config.home.title_blog }}</h2>
-  {% include post_list.html %}
-{% endif %}
-
-{% if site.theme_config.show_old_projects == true %}
-  <h2>{{ site.theme_config.home.title_old_projects }}</h2>
-  {% include card_list.html collection=site.data.home.old_project_entries %}
-{% endif %}
-
-
-{% if site.theme_config.show_footer == true %}
   <footer>
     <div class="dashed"></div>
-    {% include horizontal_list.html collection=site.data.home.footer_entries %}
+    <ul>
+      <li><a href="/secretary-of-security">Secretary of Security</a></li>
+      <li><a href="/secretary-of-development">Secretary of Development</a></li>
+      <li><a href="/secretary-of-science">Secretary of Science</a></li>
+      <!-- Add more footer links as needed -->
+    </ul>
   </footer>
-{% endif %}
+</body>
+</html>
