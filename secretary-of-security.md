@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Secretary of Security"
-permalink: /secretary-of-security
+permalink: /secretary-of-security/
 ---
 # Secretary of Security
 ## (Troops)
