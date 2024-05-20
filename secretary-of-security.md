@@ -16,6 +16,8 @@ permalink: /secretary-of-security/
   </style>
 </head>
 <body>
+  <button class="back-button" onclick="goBack()">Back</button>
+
   <h1>Secretary of Security</h1>
   <p>(Research)</p>
   
@@ -64,6 +66,10 @@ permalink: /secretary-of-security/
   </div>
   
   <script>
+    function goBack() {
+      window.history.back();
+    }
+
     function clearForm() {
       document.getElementById("username").value = "";
       document.getElementById("coordinateX").value = "";
@@ -107,4 +113,3 @@ permalink: /secretary-of-security/
   </script>
 </body>
 </html>
-
