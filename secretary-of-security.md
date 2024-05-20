@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Secretary of Security"
-permalink: /Secretary-of-Security
+permalink: /secretary-of-security
 ---
 # Secretary of Security
 ## (Troops)
