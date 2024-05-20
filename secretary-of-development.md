@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Secretary of Development"
-permalink: /Secretary-of-Development
+permalink: /secretary-of-development
 ---
 # Secretary of Development
 ## (Construction)
