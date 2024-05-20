@@ -10,15 +10,15 @@ navbar_entries:
 
 project_entries:
   - title: Secretary of Security (Troops)
-    url: https://florida-brand.com/secretary-of-security
+    url: /secretary-of-security/
     desc: This is where you can choose a timeslot for "Troops"
 
   - title: Secretary of Development (Construction)
-    url: https://florida-brand.com/secretary-of-development
+    url: /secretary-of-development/
     desc: This is where you can choose a timeslot for "Development"
 
   - title: Secretary of Science (Research)
-    url: https://florida-brand.com/secretary-of-science
+    url: /secretary-of-science/
     desc: This is where you can choose a timeslot for "Research"
   
   - title: Coming Soon!
