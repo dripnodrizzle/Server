@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Secretary of Security (Research)
+title: Secretary of Security (Troops)
 css: /assets/css/styles.css
 ---
 
 # Secretary of Security
-####(Research)
+####(Troops)
 
 ### Choose a Time Slot you would like to assign yourself for the Secretary of Security:
 <div class="carousel">
