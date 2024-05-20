@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Secretary of Science"
-permalink: /Secretary-of-Science
+permalink: /secretary-of-science
 ---
 # Secretary of Science
 ## (Troops)
