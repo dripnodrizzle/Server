@@ -1,25 +1,65 @@
 <ul class="project-entries">
-  {% for entry in site.data.home.project_entries %}
-    {% assign index = forloop.index0 | modulo: 3 %}
-    {% if index == 0 %}
-      <li class="project-row">
-    {% endif %}
-    <a href="{{ entry.url }}" class="card-link">
+  <li class="project-row">
+    <a href="/secretary-of-security" class="card-link">
       <div class="card">
         <div class="header">
-          {{ entry.title }}
-          {% if entry.highlight %}
-            <mark>{{ entry.highlight }}</mark>
-          {% endif %}
+          Secretary of Security
+          <mark>Troops</mark>
         </div>
         <hr>
-        {% if entry.desc != false %}
-          <p class="body">{{ entry.desc }}</p>
-        {% endif %}
+        <p class="body">This is where you can choose a timeslot for "Troops"</p>
       </div>
     </a>
-    {% if index == 2 or forloop.last %}
-      </li>
-    {% endif %}
-  {% endfor %}
+    <a href="/secretary-of-development" class="card-link">
+      <div class="card">
+        <div class="header">
+          Secretary of Development
+          <mark>Construction</mark>
+        </div>
+        <hr>
+        <p class="body">This is where you can choose a timeslot for "Construction"</p>
+      </div>
+    </a>
+    <a href="/secretary-of-science" class="card-link">
+      <div class="card">
+        <div class="header">
+          Secretary of Science
+          <mark>Research</mark>
+        </div>
+        <hr>
+        <p class="body">This is where you can choose a timeslot for "Research"</p>
+      </div>
+    </a>
+  </li>
+  <li class="project-row">
+    <a href="/first-lady-volunteer" class="card-link">
+      <div class="card">
+        <div class="header">
+          First Lady Volunteer
+          <mark>Highlight 4</mark>
+        </div>
+        <hr>
+        <p class="body">This page coming soon! this is the page you will go to if you want to put yourself on a list of Volunteer First Ladies</p>
+      </div>
+    </a>
+    <a href="/coming-soon" class="card-link">
+      <div class="card">
+        <div class="header">
+          Coming Soon!
+        </div>
+        <hr>
+        <p class="body">Coming soon!</p>
+      </div>
+    </a>
+    <a href="/coming-soon" class="card-link">
+      <div class="card">
+        <div class="header">
+          Coming Soon!
+          <mark>Highlight 6</mark>
+        </div>
+        <hr>
+        <p class="body">Coming Soon!</p>
+      </div>
+    </a>
+  </li>
 </ul>
