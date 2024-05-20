@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Secretary of Science"
 permalink: /secretary-of-science
 ---
