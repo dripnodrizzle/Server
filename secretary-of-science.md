@@ -10,7 +10,7 @@
   <h1>Secretary of Science</h1>
   <p>(Research)</p>
    <p>
-    <h3>Choose a Time Slot you would like to assign yourself for the Secretary of Research:</h3>
+    <h3>Choose a Time Slot you would like to assign yourself for the Secretary of Science:</h3>
   </p>
 
 <div class="carousel">
