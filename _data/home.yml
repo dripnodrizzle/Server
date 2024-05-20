@@ -2,23 +2,18 @@ navbar_entries:
   - title: Florida-Brand
     url: https://florida-brand.com
   
-  #- title: 
-   # url: 
-
-  #- title: 
-   # url: 
 
 project_entries:
   - title: Secretary of Security (Troops)
-    url: /secretary-of-security/
+    url: /secretary-of-security.md
     desc: This is where you can choose a timeslot for "Troops"
 
   - title: Secretary of Development (Construction)
-    url: /secretary-of-development/
-    desc: This is where you can choose a timeslot for "Development"
+    url: /secretary-of-development.md
+    desc: This is where you can choose a timeslot for "Construction"
 
   - title: Secretary of Science (Research)
-    url: /secretary-of-science/
+    url: /secretary-of-science.md
     desc: This is where you can choose a timeslot for "Research"
   
   - title: Coming Soon!
